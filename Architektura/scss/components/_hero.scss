@@ -1,0 +1,72 @@
+.container {
+  padding-left: 0;
+  max-width: 1403px;
+}
+
+.hero.flex-container {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 50%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.image img {
+  right: 50px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.content {
+  background-color: $tertiary-color;
+  padding: 200px 350px 200px 107px;
+  height: auto;
+  width: 63%;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  margin-left: 0;
+}
+
+.line.flex-container {
+  position: relative;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.line-fat {
+  height: 2px;
+  background-color: $secondary-color;
+  width: 20%;
+  text-align: right;
+}
+
+.line-thin {
+  height: 1px;
+  background-color: $secondary-color;
+  flex-grow: 1;
+  margin-right: 25px;
+  max-width: 35%;
+  text-align: right;
+}
+
+.line-text {
+  position: absolute;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: right;
+  color: $secondary-color;
+  top: -18px;
+  right: 0px;
+}

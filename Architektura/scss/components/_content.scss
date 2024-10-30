@@ -1,0 +1,108 @@
+/* Section backgrounds */
+#hero-section,
+#buildings-section,
+#gallerys-section {
+  background-color: $primary-color;
+}
+
+/* Section */
+
+section h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 56px;
+  text-align: left;
+  color: $secondary-color;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin: 0 0 40px 0;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 48px;
+  text-align: center;
+  color: $secondary-color;
+}
+
+section h3 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+  color: $secondary-color;
+}
+
+#h2 {
+  text-align: left;
+}
+
+section p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: $secondary-color;
+  margin-bottom: 20px;
+}
+
+/* Buildings section */
+
+.building.flex-container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-2 {
+  max-width: 1286px;
+  margin: 40px auto;
+}
+
+section {
+  text-align: center;
+}
+
+.content-2 {
+  max-width: 40%;
+  height: auto;
+  padding: 120px 60px;
+}
+
+.image-2 {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Gallery-section */
+
+.gallery.flex-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-3 {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  }
+
+.image-3 img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: $secondary-color;
+}
